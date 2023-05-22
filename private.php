@@ -2,7 +2,7 @@
 // Private extension, https://github.com/schulle4u/yellow-private
 
 class YellowPrivate {
-    const VERSION = "0.8.12";
+    const VERSION = "0.8.13";
     public $yellow;         //access to API
     
     // Handle initialisation
@@ -17,7 +17,7 @@ class YellowPrivate {
     
     // Handle page layout
     public function onParsePageLayout($page, $name) {
-        if ($this->yellow->page->get("status")=="private" && $this->yellow->getRequestHandler()=="core") {
+        if ($this->yellow->page->get("status")=="private" && $this->yellow->lookup->getRequestHandler()=="core") {
             if ($this->yellow->page->isExisting("password") && $this->yellow->page->get("password")==trim($page->getRequest("password"))) {
                 $this->yellow->page->setHeader("Last-Modified", $this->yellow->toolbox->getHttpDateFormatted(time()));
                 $this->yellow->page->setHeader("Cache-Control", "no-cache, must-revalidate");
