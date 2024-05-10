@@ -66,7 +66,7 @@ Layout file for showing all private pages:
 <div class="content">
 <div class="main" role="main">
 <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-<?php $pages = $this->yellow->content->index(true, true)->filter("status", "private") ?>
+<?php $pages = $this->yellow->content->index(true)->filter("status", "private") ?>
 <?php $this->yellow->page->setLastModified($pages->getModified()) ?>
 <ul>
 <?php foreach ($pages as $page): ?>
