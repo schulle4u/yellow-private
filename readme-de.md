@@ -1,8 +1,6 @@
-<p align="right"><a href="readme-de.md">Deutsch</a> &nbsp; <a href="readme.md">English</a></p>
-
 # Private 0.9.1
 
-Unterstützung für passwortgeschützte Seiten.
+Unterstützung für passwortgeschützte Seiten. Entwickelt von Steffen Schultz.
 
 <p align="center"><img src="screenshot.png" alt="Bildschirmfoto"></p>
 
@@ -84,4 +82,4 @@ Vielen Dank an Kanbeq für die ursprüngliche Idee.
 
 ## Entwickler
 
-Steffen Schultz. [Hilfe finden](https://datenstrom.se/de/yellow/help/).
+Hast du Fragen? [Hilfe finden](https://datenstrom.se/de/yellow/help/).
