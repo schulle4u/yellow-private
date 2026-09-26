@@ -1,4 +1,4 @@
-# Private 0.9.1
+# Private 1.0.1
 
 Support for password-protected pages. Developed by Steffen Schultz.
 
